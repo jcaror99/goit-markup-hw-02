@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.request-our-service {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.valores p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.collaborator-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.collaborator-profession {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.button-filters {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.project-filter {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
