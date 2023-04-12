@@ -8,10 +8,13 @@
   --logo-color: #2196f3;
   --tittle-color: #ffffff;
   --contact-color:rgba(255, 255, 255, 0.6);
+  --text-color: #757575;
+  --black-color: #212121;
 }
 
 a {
   text-decoration: none;
+  color: var(--black-color);
 }
 
 address {
@@ -27,6 +30,15 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: var(--logo-color);
+  font-size: 26px;
+}
+
+.nav-menu {
+color: var(--black-color);
+}
+
+.contact-header .header-menu{
+  color: var(--text-color);
 }
 
 .header-menu:hover,
@@ -38,6 +50,8 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-weight: 700;
   background-color: var(--sheet-backcolor);
+  color: var(--text-color);
+  font-size: 14px;
 }
 
 h1 {
@@ -48,11 +62,13 @@ h1 {
 .titulo {
   background-color: var(--tittle-backcolor);
   color: var(--tittle-color);
+  font-size: 44px;
 }
 
 .request-our-service {
   background-color: #2196f3;
   color: #ffffff;
+  font-size: 16px;
 }
 
 .request-our-service:hover,
@@ -62,24 +78,49 @@ h1 {
   color: #ffffff;
 }
 
+.valores h3 {
+  color: var(--black-color);
+}
+
 .valores p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
+.mision h2 {
+  color: var(--black-color);
+  font-size: 36px;
+}
+
+.equipo {
+  background-color: var(--our-team);
+}
+
+.equipo h2 {
+  color: var(--black-color);
+  font-size: 36px;
+}
+
+.equipo .collaborator-name {
+  color: var(--black-color);
+}
+
 .collaborator-name {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .collaborator-profession {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .button-filters {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .button-filters:hover,
@@ -91,10 +132,15 @@ h1 {
 .project-filter {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
-.equipo {
-  background-color: var(--our-team);
+.project-tittle {
+  font-size: 18px;
+}
+
+.projects .project-tittle {
+  color: var(--black-color);
 }
 
 footer {
