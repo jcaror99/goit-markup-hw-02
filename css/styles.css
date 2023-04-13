@@ -31,14 +31,17 @@ header {
   font-weight: 700;
   color: var(--logo-color);
   font-size: 26px;
+  line-height: 31px;
 }
 
 .nav-menu {
 color: var(--black-color);
+line-height: 16px;
 }
 
 .contact-header .header-menu{
   color: var(--text-color);
+  line-height: 16px;
 }
 
 .header-menu:hover,
@@ -63,12 +66,14 @@ h1 {
   background-color: var(--tittle-backcolor);
   color: var(--tittle-color);
   font-size: 44px;
+  line-height: 60px;
 }
 
 .request-our-service {
   background-color: #2196f3;
   color: #ffffff;
   font-size: 16px;
+  line-height: 30px;
 }
 
 .request-our-service:hover,
@@ -80,16 +85,19 @@ h1 {
 
 .valores h3 {
   color: var(--black-color);
+  line-height: 16px;
 }
 
 .valores p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .mision h2 {
   color: var(--black-color);
   font-size: 36px;
+  line-height: 42px;
 }
 
 .equipo {
@@ -99,6 +107,7 @@ h1 {
 .equipo h2 {
   color: var(--black-color);
   font-size: 36px;
+  line-height: 42px;
 }
 
 .equipo .collaborator-name {
@@ -109,34 +118,40 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 19px;
 }
 
 .collaborator-profession {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 19px;
 }
 
 .button-filters {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 26px;
 }
 
 .button-filters:hover,
 .button-filters:focus {
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .project-filter {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 30px;
 }
 
 .project-tittle {
   font-size: 18px;
+  line-height: 36px;
 }
 
 .projects .project-tittle {
@@ -148,6 +163,7 @@ footer {
   font-weight: 400;
   background-color: var(--tittle-backcolor);
   color: var(--tittle-color);
+  line-height: 24px;
 }
 
 .contact-footer {
