@@ -7,7 +7,7 @@
   /*Variable de colores para el texto*/
   --logo-color: #2196f3;
   --tittle-color: #ffffff;
-  --contact-color:rgba(255, 255, 255, 0.6);
+  --contact-color: rgba(255, 255, 255, 0.6);
   --text-color: #757575;
   --black-color: #212121;
 }
@@ -15,6 +15,10 @@
 a {
   text-decoration: none;
   color: var(--black-color);
+}
+
+ul {
+  list-style: none;
 }
 
 address {
@@ -35,17 +39,23 @@ header {
 }
 
 .nav-menu {
-color: var(--black-color);
-line-height: 16px;
+  color: var(--black-color);
+  line-height: 16px;
 }
 
-.contact-header .header-menu{
+.contact-header .header-menu {
   color: var(--text-color);
   line-height: 16px;
 }
 
 .header-menu:hover,
 .header-menu:focus {
+  color: #2196f3;
+}
+
+.header-menu.active,
+.header-menu:hover,
+.header-menu:active {
   color: #2196f3;
 }
 
