@@ -10,6 +10,17 @@
   --contact-color: rgba(255, 255, 255, 0.6);
   --text-color: #757575;
   --black-color: #212121;
+
+  /*Variables de interlineado line-height(multiplicador)=line-height (px)/font-size (px)*/
+  --multi-31-26: 1.2;
+  --multi-16-14: 1.1;
+  --multi-60-44: 1.4;
+  --multi-30-16: 1.9;
+  --multi-24-14: 1.7;
+  --multi-42-36: 1.2;
+  --multi-19-16: 1.2;
+  --multi-26-16: 1.6;
+  --multi-36-18: 2;
 }
 
 a {
@@ -35,17 +46,17 @@ header {
   font-weight: 700;
   color: var(--logo-color);
   font-size: 26px;
-  line-height: 31px;
+  line-height: var(--multi-31-26);
 }
 
 .nav-menu {
   color: var(--black-color);
-  line-height: 16px;
+  line-height: var(--multi-16-14);
 }
 
 .contact-header .header-menu {
   color: var(--text-color);
-  line-height: 16px;
+  line-height: var(--multi-16-14);
 }
 
 .header-menu:hover,
@@ -76,38 +87,39 @@ h1 {
   background-color: var(--tittle-backcolor);
   color: var(--tittle-color);
   font-size: 44px;
-  line-height: 60px;
+  line-height: var(--multi-60-44);
 }
 
 .request-our-service {
   background-color: #2196f3;
   color: #ffffff;
   font-size: 16px;
-  line-height: 30px;
+  font-weight: 700;
+  line-height: var(--multi-30-16);
+  cursor: pointer;
 }
 
 .request-our-service:hover,
 .request-our-service:focus {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   color: #ffffff;
 }
 
 .valores h3 {
   color: var(--black-color);
-  line-height: 16px;
+  line-height: var(--multi-16-14);
 }
 
 .valores p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  line-height: 24px;
+  line-height: var(--multi-24-14);
 }
 
 .mision h2 {
   color: var(--black-color);
   font-size: 36px;
-  line-height: 42px;
+  line-height: var(--multi-42-36);
 }
 
 .equipo {
@@ -117,7 +129,7 @@ h1 {
 .equipo h2 {
   color: var(--black-color);
   font-size: 36px;
-  line-height: 42px;
+  line-height: var(--multi-42-36);
 }
 
 .equipo .collaborator-name {
@@ -128,21 +140,22 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: var(--multi-19-16);
 }
 
 .collaborator-profession {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: var(--multi-19-16);
 }
 
 .button-filters {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  color: var(--black-color);
+  line-height: var(--multi-26-16);
 }
 
 .button-filters:hover,
@@ -156,16 +169,13 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: var(--multi-30-16);
 }
 
 .project-tittle {
   font-size: 18px;
-  line-height: 36px;
-}
-
-.projects .project-tittle {
   color: var(--black-color);
+  line-height: var(--multi-36-18);
 }
 
 footer {
@@ -173,9 +183,14 @@ footer {
   font-weight: 400;
   background-color: var(--tittle-backcolor);
   color: var(--tittle-color);
-  line-height: 24px;
+  line-height: var(--multi-24-14);
 }
 
 .contact-footer {
   color: var(--contact-color);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: #2196f3;
 }
